@@ -60,8 +60,6 @@ https://omarwalid96.gitlab.io/zal_robotics_engineer_task/
 > This solution is running on a docker image, a GPU is needed to avoid simulation jittering.
 
 ## Solution
-![Video](https://imgur.com/a/dRYsbDH.mp4)
-![Video](https://imgur.com/a/dRYsbDH)
 ![Video](https://i.imgur.com/mRarmfo.mp4)
 <img src="https://i.imgur.com/EWTWwQT.png" alt="Image" style="width:75%; height:75%;">
 ## Instillation
