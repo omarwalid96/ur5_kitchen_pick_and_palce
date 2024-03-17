@@ -24,6 +24,7 @@ from ros2_data.action import MoveROT
 from ros2_data.action import MoveRP
 from ros2_data.action import MoveG
 from ros2_grasping.action import Attacher 
+from ament_index_python.packages import get_package_share_directory
 
 # Import MESSAGES:
 from ros2_data.msg import JointPose
@@ -712,7 +713,8 @@ def main(args=None):
 
     EXISTS = False
     PR_NAME = PARAM_PROGRAM
-    filepath = os.path.join(os.path.expanduser('~'), 'dev_ws', 'src', 'ros2_RobotSimulation', 'ros2_execution', 'programs', PR_NAME + ".txt")
+    package_path = get_package_share_directory("ros2_execution")
+    filepath = os.path.join(package_path, 'programs', PR_NAME + ".txt")
     EXISTS = os.path.exists(filepath)
     if (EXISTS == True):
         print(PR_NAME + " file found! Executing program...")

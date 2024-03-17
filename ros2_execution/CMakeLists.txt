@@ -34,7 +34,7 @@ endif()
 
 install(
   DIRECTORY 
-    scripts
+    scripts programs
   DESTINATION 
     share/${PROJECT_NAME}
 )
