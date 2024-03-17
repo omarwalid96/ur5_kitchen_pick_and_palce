@@ -35,13 +35,7 @@ https://nodogro-test-omarwalid96-d971e11d58703eff12cd158faee6d4b30ed530.gitlab.i
 > This solution is running on a docker image, a GPU is needed to avoid simulation jittering.
 
 ## Solution
-<<<<<<< HEAD
 ![Video](https://i.imgur.com/UYCaZkp.gif)
-=======
-![Video](https://i.imgur.com/mRarmfo.mp4)
-<img src="https://i.imgur.com/EWTWwQT.png" alt="Image" style="width:75%; height:75%;">
-## Instillation
->>>>>>> 6b85021ab4326081520f2edb24a944f5536bc800
 
 ## Instillation
 
