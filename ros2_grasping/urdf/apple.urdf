@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot name="apple">
+
+
+    <link name='apple'>
+        <inertial>
+        <origin xyz= "0.0 0.0 0.0" rpy="0 0 0"/>
+        <mass value= "0.05" />
+        <inertia
+            ixx="0.15" ixy="0.0"  ixz="0.0"
+            iyy="0.15" iyz="0.0"
+            izz="0.15" />
+        </inertial>
+        <collision name='collision'>
+        <origin xyz="0 0 0" rpy=" 0 0 0"/> 
+        <geometry>
+            <!-- <mesh filename="file://$(find panda_ros2_gazebo)/meshes/apple2.stl"/> -->
+            <box size= "0.04 0.04 0.06" />
+        </geometry>
+        </collision>
+        <visual name='chassis_visual'>
+        <origin xyz="0 0 -0.03" rpy=" 0 0 0"/>
+        <geometry>
+            <mesh filename="file://$(find panda_ros2_gazebo)/meshes/apple.stl"/>
+        </geometry>
+        <material name="red">
+            <color rgba="1 0 0 1"/>
+        </material>
+        </visual>
+    </link>
+
+  <gazebo reference="apple">
+    <material>Gazebo/Red</material>
+
+    <mu1>0.0</mu1>
+    <mu2>0.0</mu2>
+    <selfCollide>false</selfCollide>
+  </gazebo>
+
+</robot>
