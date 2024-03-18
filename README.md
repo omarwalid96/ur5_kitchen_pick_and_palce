@@ -55,12 +55,13 @@ systemctl restart docker
 - Gui opens and you can instantly works after **30 seconds** from boot.
 
 ### Docker
-1. run `docker run -it --privileged --net="host" -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --gpus all   --env="QT_X11_NO_MITSHM=1" omarwalid96/nodogoro-pick-and-place -c  "sleep 1;source /root/.bashrc ; ros2 launch panda_ros2_moveit2 panda_interface.launch.py; exec bash"`
+1. run `docker run -it --privileged --net="host" -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix --gpus all   --env="QT_X11_NO_MITSHM=1" omarwalid96/nodogoro-pick-and-place`
 
 
 ## ✍️ Authors <a name = "authors"></a>
 
 - [@omarwalid96](https://gitlab.com/omarwalid96) 
+- [omarwalid@outlook.com](omarwalid@outlook.com)
 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
