@@ -36,7 +36,7 @@ https://nodogro-test-omarwalid96-d971e11d58703eff12cd158faee6d4b30ed530.gitlab.i
 
 ## Solution
 ![Video](https://i.imgur.com/mRarmfo.mp4)
-
+[![Watch the video](https://i.imgur.com/mRarmfo.mp4)](https://i.imgur.com/mRarmfo.mp4)
 ## Instillation
 
 ### Docker
