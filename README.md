@@ -9,23 +9,23 @@
 - [Code Docs](#code-docs)
 - [Solution](#solution)
 - [Instillation](#instillation)
-    - [Docker](#docker)
-- [🎈 Usage <a name="usage"></a>](#-usage-a-nameusagea)
-    - [Docker](#docker)
-- [✍️ Authors <a name = "authors"></a>](#%EF%B8%8F-authors-a-name--authorsa)
-- [🏁 Getting Started <a name = "getting_started"></a>](#-getting-started-a-name--getting_starteda)
-    - [Problem](#problem)
-    - [Environment Setup <a name = "Environment_Setup"></a>](#environment-setup-a-name--environment_setupa)
-        - [Kitchen:](#kitchen)
-        - [Apple: <a name = "Apple"></a>](#apple-a-name--applea)
-        - [Robot Arm: <a name = "Robot_Arm"></a>](#robot-arm-a-name--robot_arma)
-    - [Simulation Tasks <a name = "Simulation_Tasks"></a>](#simulation-tasks-a-name--simulation_tasksa)
-- [ROS2 Packages <a name = "ROS2_Packages"></a>](#ros2-packages-a-name--ros2_packagesa)
-    - [Moveit2](#moveit2)
-    - [ros2_data](#ros2_data)
-    - [ros2_actions](#ros2_actions)
-    - [ros2_execution](#ros2_execution)
-    - [ros2_grasping](#ros2_grasping)
+  - [Docker](#docker)
+- [🎈 Usage ](#-usage-)
+  - [Docker](#docker-1)
+- [✍️ Authors ](#️-authors-)
+- [🏁 Getting Started ](#-getting-started-)
+  - [Problem](#problem)
+  - [Environment Setup ](#environment-setup-)
+    - [Kitchen:](#kitchen)
+    - [Apple: ](#apple-)
+    - [Robot Arm: ](#robot-arm-)
+  - [Simulation Tasks ](#simulation-tasks-)
+- [ROS2 Packages ](#ros2-packages-)
+  - [Moveit2](#moveit2)
+  - [ros2\_data](#ros2_data)
+  - [ros2\_actions](#ros2_actions)
+  - [ros2\_execution](#ros2_execution)
+  - [ros2\_grasping](#ros2_grasping)
 
 
 ## Code Docs
@@ -34,9 +34,9 @@ https://nodogro-test-omarwalid96-d971e11d58703eff12cd158faee6d4b30ed530.gitlab.i
 > [!NOTE]
 > This solution is running on a docker image, a GPU is needed to avoid simulation jittering.
 
-## Solution
-![Video](https://i.imgur.com/mRarmfo.mp4)
-[![Watch the video](https://i.imgur.com/mRarmfo.mp4)](https://i.imgur.com/mRarmfo.mp4)
+## Solution 
+<video src='https://i.imgur.com/mRarmfo.mp4' />
+
 ## Instillation
 
 ### Docker
